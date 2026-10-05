@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- viewport-fit=cover lets the page draw under the status bar, notch and home indicator. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>PWA Template</title>
+    <meta name="description" content="A minimal installable, offline, edge-to-edge PWA." />
+
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css?v=__BUILD_TIMESTAMP__" />
+  </head>
+  <body>
+    <header>
+      <h1>PWA Template</h1>
+      <p>The safe area begins at the top of this bar.</p>
+    </header>
+    <main>
+      <p id="install-hint" class="card">
+        Install the app to run it without the browser's bars. On iPhone, tap Share, then Add to Home
+        Screen. That is also the only way to get notifications on iPhone.
+      </p>
+      <p class="buttons">
+        <button id="install" disabled>Install</button>
+        <button id="fullscreen">Fullscreen</button>
+        <button id="notify">Send notification</button>
+      </p>
+      <pre class="card">
+<i style="background: var(--root)"></i> red      html background
+<i style="background: linear-gradient(45deg, var(--stripe-1) 50%, var(--stripe-2) 50%)"></i> stripes  body background
+<i style="background: var(--outside)"></i> yellow   body outside the safe area
+<i style="background: cyan"></i> cyan     manifest theme_color
+<i style="background: green"></i> green    manifest background_color</pre>
+      <pre id="info" class="card"></pre>
+    </main>
+    <!-- The deploy workflow replaces this with the UTC time of the deploy. -->
+    <footer>
+      The safe area ends at the bottom of this bar.<br />
+      Version __BUILD_TIMESTAMP__
+    </footer>
+
+    <div id="probe"></div>
+    <script type="module" src="app.js?v=__BUILD_TIMESTAMP__"></script>
+  </body>
+</html>

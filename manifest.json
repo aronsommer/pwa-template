@@ -1,0 +1,22 @@
+{
+  "name": "PWA Template",
+  "short_name": "PWA",
+  "description": "A minimal installable, offline, edge-to-edge PWA.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "green",
+  "theme_color": "cyan",
+  "icons": [
+    {
+      "src": "img/pwa-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "img/pwa-icon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
