@@ -64,6 +64,64 @@ The colors are not meant to look good. Each one stands for one thing, so you can
 - **Green**: `background_color` in `manifest.json`. On Android it is the screen that shows for a moment, with the icon, while the installed app starts.
 - **Blue**: the two bars at the edges of the safe area, and the buttons.
 
+## Screenshots
+
+Taken in October 2026 on iOS 27.0, iPadOS 27.0, Android 16, macOS 27.0.1 and Windows 11, with stable Chrome.
+
+### Phone and tablet
+
+<table>
+  <tr>
+    <th></th>
+    <th>Page</th>
+    <th>Installed</th>
+    <th>Installed, fullscreen</th>
+  </tr>
+  <tr>
+    <td valign="top">iPhone 17e, Safari</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/iphone17e-safari-page.png" width="200" alt="iPhone 17e, Safari, page"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/iphone17e-safari-installed.png" width="200" alt="iPhone 17e, installed"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">iPad (A16), Safari</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/ipada16-safari-page.png" width="200" alt="iPad (A16), Safari, page"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/ipada16-safari-installed.png" width="200" alt="iPad (A16), installed"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">Samsung Galaxy S25, Chrome</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/samsungs25-chrome-page.png" width="200" alt="Samsung Galaxy S25, Chrome, page"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/samsungs25-chrome-installed.png" width="200" alt="Samsung Galaxy S25, installed"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/samsungs25-chrome-installed-fullscreen.png" width="200" alt="Samsung Galaxy S25, installed, fullscreen"></td>
+  </tr>
+</table>
+
+### Desktop
+
+<table>
+  <tr>
+    <th></th>
+    <th>Page</th>
+    <th>Installed</th>
+  </tr>
+  <tr>
+    <td valign="top">macOS, Chrome</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/macos-chrome-page.png" width="320" alt="macOS, Chrome, page"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/macos-chrome-installed.png" width="320" alt="macOS, Chrome, installed"></td>
+  </tr>
+  <tr>
+    <td valign="top">macOS, Safari</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/macos-safari-page.png" width="320" alt="macOS, Safari, page"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">Windows 11, Chrome</td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/windows11-chrome-page.png" width="320" alt="Windows 11, Chrome, page"></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/aronsommer/pwa-template-screenshots/main/windows11-chrome-installed.png" width="320" alt="Windows 11, Chrome, installed"></td>
+  </tr>
+</table>
+
 ## Icons
 
 `make-icons.sh` generates the icons in `img/` from one design, the transparent `icon-1024x1024.png`. It needs ImageMagick.
