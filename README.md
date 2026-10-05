@@ -1,6 +1,6 @@
 # PWA Template
 
-A minimal Progressive Web App with no build step and no dependencies. The page is a test card: it shows on a real device what each part does.
+A minimal Progressive Web App that shows how install, offline, updates, edge to edge, fullscreen and notifications behave on iPhone, Android and desktop.
 
 **Demo**: [aronsommer.github.io/pwa-template](https://aronsommer.github.io/pwa-template/)
 
