@@ -79,11 +79,15 @@ function showInfo() {
     `viewport         ${innerWidth} × ${innerHeight}`,
     `screen           ${screen.width} × ${screen.height}`,
     `notifications    ${canNotify ? Notification.permission : "unavailable"}`,
+    `network          ${navigator.onLine ? "online" : "offline"}`,
     `font             ${document.fonts.check('14px "Space Grotesk"') ? "loaded" : "not loaded"}`,
   ].join("\n");
 }
 
 // Fires once now, and again whenever the viewport or the safe area changes.
 new ResizeObserver(showInfo).observe($("probe"));
+// Fire when navigator.onLine changes.
+addEventListener("online", showInfo);
+addEventListener("offline", showInfo);
 // Fires when the font has loaded or failed to.
 document.fonts.addEventListener("loadingdone", showInfo);

@@ -13,7 +13,7 @@ A minimal Progressive Web App that shows how install, offline, updates, edge to 
 - **Fullscreen**: the button also hides the status bar. Not on iPhone.
 - **Notifications**: the button shows a notification through the service worker, with no server.
 
-The page also prints what the device reports: display mode, safe area, viewport heights, notification permission and whether the font loaded. A button the device cannot use is disabled.
+The page also prints what the device reports: display mode, safe area, viewport heights, notification permission, whether there is a network and whether the font loaded. A button the device cannot use is disabled.
 
 ## Use it
 
